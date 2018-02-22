@@ -1,6 +1,6 @@
 {
   "name": "pairwise-iterator",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "Iterate by pairwise values in a list",
   "main": "index.js",
   "scripts": {
