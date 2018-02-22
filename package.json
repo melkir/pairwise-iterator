@@ -1,6 +1,6 @@
 {
   "name": "pairwise-iterator",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Iterate by pairwise values in a list",
   "main": "index.js",
   "scripts": {
@@ -19,8 +19,7 @@
     "iterator",
     "pairwise"
   ],
-  "dependencies": {
-  },
+  "dependencies": {},
   "devDependencies": {
     "ava": "*",
     "codecov": "^3.0.0",
@@ -39,7 +38,10 @@
     "space": true,
     "prettier": true,
     "rules": {
-      "eqeqeq": ["error", "smart"],
+      "eqeqeq": [
+        "error",
+        "smart"
+      ],
       "no-eq-null": "off"
     }
   },
