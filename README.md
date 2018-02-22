@@ -28,8 +28,7 @@ it.next(); // => { value: undefined, done: true }
 const it = pairwiseIterator({
   1: 'a',
   2: 'b',
-  3: 'c',
-  4: 'd'
+  3: 'c'
 });
 
 it.next(); // => { value: [ 'a', 'b' ], done: false }
