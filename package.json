@@ -4,7 +4,7 @@
   "description": "Iterate by pairwise values in a list",
   "main": "index.js",
   "scripts": {
-    "test": "xo && ava -v"
+    "test": "xo && nyc ava -v"
   },
   "engines": {
     "node": ">=8"
