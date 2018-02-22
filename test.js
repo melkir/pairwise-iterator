@@ -22,3 +22,8 @@ test('object', t => {
   const it = iterable({ 1: 'a', 2: 'b', 3: 'c', 4: 'd' });
   t.deepEqual([...it], output);
 });
+
+test('null', t => {
+  const it = iterable(null);
+  t.true(it.next().done);
+});
